@@ -492,14 +492,14 @@ input:-webkit-autofill {
 }
 
 .social{
-    height: 30px;
+    height: 60px;
 }
 
 
 
 .social a{
     color: #fff;
-    font-size: 15px;
+    font-size: 30px;
     margin:0 15px;
     transition: all ease 0.3s;
 }
