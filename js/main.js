@@ -130,8 +130,8 @@ $('.responsive').on('click', function (e) {
     
     // HOME TYPED JS
       $(".element").typed({
-        strings: ["Gimantha", "a Fullstack Developer"],
-        typeSpeed: 10,
+        strings: ["Hi! I'm Gimantha", "I'm a Fullstack Developer"],
+        typeSpeed: 8,
         loop:true,
         backDelay: 2000
       });
