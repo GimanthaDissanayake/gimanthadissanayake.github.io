@@ -6,15 +6,15 @@ Personal portfolio site for Gimantha Dissanayake, a software developer passionat
 
 A single-page site covering:
 
-- **Home** — intro
-- **About** — bio and programming languages, frameworks, and tools
-- **Portfolio** — project showcase
-- **Education** — academic background
-- **Contact** — a contact form
+- **Home**: intro
+- **About**: bio and programming languages, frameworks, and tools
+- **Portfolio**: project showcase
+- **Education**: academic background
+- **Contact**: a contact form
 
 ## Tech stack
 
-Static HTML/CSS/JS built on the classic Bootstrap + jQuery template stack — no build tools, bundlers, or package managers involved. Notable libraries used: Bootstrap, jQuery, Isotope (portfolio filtering), Owl Carousel, Magnific Popup, Superslides, WOW.js, and Typed.js.
+Static HTML/CSS/JS built on the classic Bootstrap + jQuery template stack, with no build tools, bundlers, or package managers involved. Notable libraries used: Bootstrap, jQuery, Isotope (portfolio filtering), Owl Carousel, Magnific Popup, Superslides, WOW.js, and Typed.js.
 
 The contact form (`mail.php`) is a PHP script that emails submissions using PHP's `mail()` function.
 

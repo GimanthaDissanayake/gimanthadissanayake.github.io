@@ -1,0 +1,12 @@
+{
+  "name": "gimanthadissanayake.github.io",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Personal portfolio site",
+  "scripts": {
+    "security-check": "retire --path . --outputformat text"
+  },
+  "devDependencies": {
+    "retire": "^5.2.0"
+  }
+}
