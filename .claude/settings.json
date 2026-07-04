@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run security-check)",
+      "Bash(npm -v)"
+    ]
+  }
+}
