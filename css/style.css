@@ -1168,6 +1168,14 @@ ul.post-comment li p {
     line-height: 20px;
 }
 
+.contact .section-title{
+    padding-bottom: 30px;
+}
+
+.contact .container-fluid{
+    padding-bottom: 60px;
+}
+
 .section-title p{
     margin-top:20px;
 }
