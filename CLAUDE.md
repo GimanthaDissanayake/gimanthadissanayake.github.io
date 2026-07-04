@@ -11,8 +11,9 @@ This is a static one-page personal portfolio site for Gimantha Dissanayake, host
 There is no build/lint/test tooling in this repo. To work on the site:
 
 - Open `index.html` directly in a browser, or serve the directory with any static file server (e.g. `python3 -m http.server`) to test relative asset paths and the AJAX contact form.
-- Changes are deployed automatically by GitHub Pages whenever `master` is pushed — there is no separate deploy step.
+- Changes are deployed automatically by GitHub Pages whenever `master` is pushed. There is no separate deploy step.
 - The contact form posts to `mail.php` via AJAX (see `js/main.js`), which requires a PHP-capable host (e.g. `php -S localhost:8000`) to test end-to-end; it will not work on GitHub Pages itself or a plain static server.
+- Run `npm install` once, then `npm run security-check` to scan the vendored `js/`/`css/` libraries for known CVEs with retire.js. This also runs automatically on push/PR to `master` and weekly via `.github/workflows/security-check.yml`. A vendored library flagged with a CVE that has no fix in its current major-version line (e.g. Bootstrap 3.x) is a known, tracked gap, not a bug in the scan; see open GitHub issues before "fixing" it by suppression.
 
 ## Architecture
 
