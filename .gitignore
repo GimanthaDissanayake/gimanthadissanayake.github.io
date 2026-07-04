@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Environment / secrets
+.env
+.env.local
+
+# Node (in case of future tooling)
+node_modules/
+npm-debug.log*
+
+# PHP / Composer (in case of future tooling)
+vendor/
+composer.lock
